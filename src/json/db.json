@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+
+  
+  "users": [{
+    "name": "typicode",
+    "postId": 2
+  },
+  {
+    "name": "typi",
+    "postId": 1
+  },
+  {
+    "name": "code",
+    "postId": 3
+  }
+  ],
+
+
+  "persons": [{
+    "name": "Rajat Patil",
+    "password": "pass123"
+  }
+  ],
+
+
+  
+  "seller": [{
+    "name": "Madhav",
+    "postId": 1,
+    "email":"mandav@gmail.com",
+    "bookname":"Physics book 11",
+    "book":"book1.jpg",
+    "price":200
+  },
+  {
+    "name": "Abhishekh",
+    "postId": 2,
+    "email":"Abhi@gmail.com",
+    "bookname":"Organic Chemistry",
+    "book":"book2.jpg",
+    "price":250
+  },
+  {
+    "name": "Harendra",
+    "postId": 3,
+    "email":"Harendra@gmail.com",
+    "bookname":"RD Sharma",
+    "book":"book3.jpg",
+    "price":320
+  }
+  ]
+
+}
